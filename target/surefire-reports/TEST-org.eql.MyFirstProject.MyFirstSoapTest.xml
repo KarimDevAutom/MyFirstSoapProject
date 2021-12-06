@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.eql.MyFirstProject.MyFirstSoapTest" time="18.277" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject\target\test-classes;C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject\target\classes;C:\Users\formation\.m2\repository\org\apache\httpcomponents\httpclient\4.2.1\httpclient-4.2.1.jar;C:\Users\formation\.m2\repository\org\apache\httpcomponents\httpcore\4.2.1\httpcore-4.2.1.jar;C:\Users\formation\.m2\repository\commons-codec\commons-codec\1.6\commons-codec-1.6.jar;C:\Users\formation\.m2\repository\org\apache\httpcomponents\httpmime\4.2.1\httpmime-4.2.1.jar;C:\Users\formation\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\formation\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\formation\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\formation\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\formation\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\formation\.m2\repository\commons-beanutils\commons-beanutils\1.9.3\commons-beanutils-1.9.3.jar;C:\Users\formation\.m2\repository\dk\e-software\commandLineParser\1.2.0\commandLineParser-1.2.0.jar;C:\Users\formation\.m2\repository\net\sf\squirrel-sql\thirdparty-non-maven\com-fifesoft-rsyntaxtextarea\1.0.0\com-fifesoft-rsyntaxtextarea-1.0.0.jar;C:\Users\formation\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\formation\.m2\repository\org\slf4j\slf4j-log4j12\1.7.26\slf4j-log4j12-1.7.26.jar;C:\Users\formation\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\formation\.m2\repository\wsdl4j\wsdl4j\1.6.2\wsdl4j-1.6.2.jar;C:\Users\formation\.m2\repository\xmlunit\xmlunit\1.3\xmlunit-1.3.jar;C:\Installation\SmartBear\SoapUI-5.4.0\bin\soapui-5.4.0.jar;C:\Users\formation\.m2\repository\org\apache\xmlbeans\xmlbeans\2.4.0\xmlbeans-2.4.0.jar;C:\Users\formation\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\formation\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\formation\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\proxy-vole-20131209.jar;C:\Users\formation\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\formation\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\formation\.m2\repository\xml-apis\xml-apis\1.3.04\xml-apis-1.3.04.jar;C:\Users\formation\.m2\repository\org\reflections\reflections\0.9.11\reflections-0.9.11.jar;C:\Users\formation\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\formation\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\formation\.m2\repository\org\codehaus\groovy\groovy-all\2.4.15\groovy-all-2.4.15.jar;C:\Users\formation\.m2\repository\org\bouncycastle\bcprov-jdk16\1.45\bcprov-jdk16-1.45.jar;C:\Users\formation\.m2\repository\com\jgoodies\forms\1.2.1\forms-1.2.1.jar;C:\Users\formation\.m2\repository\org\apache\flex\blazeds\flex-messaging-core\4.7.0\flex-messaging-core-4.7.0.jar;C:\Users\formation\.m2\repository\org\apache\flex\blazeds\flex-messaging-common\4.7.0\flex-messaging-common-4.7.0.jar;C:\Users\formation\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar;C:\Users\formation\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\jms-1.1.jar;C:\Installation\Java\jdk1.8.0_152\lib\tools.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\out-app-analytics-provider-5.4.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Installation\Java\jre1.8.0_152\bin"/>
+    <property name="sun.java.command" value="C:\Users\formation\AppData\Local\Temp\surefire5169713578288171069\surefirebooter6106941092068288051.jar C:\Users\formation\AppData\Local\Temp\surefire5169713578288171069 2021-12-06T16-40-26_650-jvmRun1 surefire6131840652719606948tmp surefire_094952805790831674tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject\target\test-classes;C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject\target\classes;C:\Users\formation\.m2\repository\org\apache\httpcomponents\httpclient\4.2.1\httpclient-4.2.1.jar;C:\Users\formation\.m2\repository\org\apache\httpcomponents\httpcore\4.2.1\httpcore-4.2.1.jar;C:\Users\formation\.m2\repository\commons-codec\commons-codec\1.6\commons-codec-1.6.jar;C:\Users\formation\.m2\repository\org\apache\httpcomponents\httpmime\4.2.1\httpmime-4.2.1.jar;C:\Users\formation\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\formation\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\formation\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\formation\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\formation\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\formation\.m2\repository\commons-beanutils\commons-beanutils\1.9.3\commons-beanutils-1.9.3.jar;C:\Users\formation\.m2\repository\dk\e-software\commandLineParser\1.2.0\commandLineParser-1.2.0.jar;C:\Users\formation\.m2\repository\net\sf\squirrel-sql\thirdparty-non-maven\com-fifesoft-rsyntaxtextarea\1.0.0\com-fifesoft-rsyntaxtextarea-1.0.0.jar;C:\Users\formation\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\formation\.m2\repository\org\slf4j\slf4j-log4j12\1.7.26\slf4j-log4j12-1.7.26.jar;C:\Users\formation\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\formation\.m2\repository\wsdl4j\wsdl4j\1.6.2\wsdl4j-1.6.2.jar;C:\Users\formation\.m2\repository\xmlunit\xmlunit\1.3\xmlunit-1.3.jar;C:\Installation\SmartBear\SoapUI-5.4.0\bin\soapui-5.4.0.jar;C:\Users\formation\.m2\repository\org\apache\xmlbeans\xmlbeans\2.4.0\xmlbeans-2.4.0.jar;C:\Users\formation\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\formation\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\formation\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\proxy-vole-20131209.jar;C:\Users\formation\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\formation\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\formation\.m2\repository\xml-apis\xml-apis\1.3.04\xml-apis-1.3.04.jar;C:\Users\formation\.m2\repository\org\reflections\reflections\0.9.11\reflections-0.9.11.jar;C:\Users\formation\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\formation\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\formation\.m2\repository\org\codehaus\groovy\groovy-all\2.4.15\groovy-all-2.4.15.jar;C:\Users\formation\.m2\repository\org\bouncycastle\bcprov-jdk16\1.45\bcprov-jdk16-1.45.jar;C:\Users\formation\.m2\repository\com\jgoodies\forms\1.2.1\forms-1.2.1.jar;C:\Users\formation\.m2\repository\org\apache\flex\blazeds\flex-messaging-core\4.7.0\flex-messaging-core-4.7.0.jar;C:\Users\formation\.m2\repository\org\apache\flex\blazeds\flex-messaging-common\4.7.0\flex-messaging-common-4.7.0.jar;C:\Users\formation\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar;C:\Users\formation\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\jms-1.1.jar;C:\Installation\Java\jdk1.8.0_152\lib\tools.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\out-app-analytics-provider-5.4.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\formation"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Installation\Java\jre1.8.0_152"/>
+    <property name="basedir" value="C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\formation\AppData\Local\Temp\surefire5169713578288171069\surefirebooter6106941092068288051.jar"/>
+    <property name="sun.boot.class.path" value="C:\Installation\Java\jre1.8.0_152\lib\resources.jar;C:\Installation\Java\jre1.8.0_152\lib\rt.jar;C:\Installation\Java\jre1.8.0_152\lib\sunrsasign.jar;C:\Installation\Java\jre1.8.0_152\lib\jsse.jar;C:\Installation\Java\jre1.8.0_152\lib\jce.jar;C:\Installation\Java\jre1.8.0_152\lib\charsets.jar;C:\Installation\Java\jre1.8.0_152\lib\jfr.jar;C:\Installation\Java\jre1.8.0_152\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_152-b16"/>
+    <property name="user.name" value="formation"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Installation\Java\jre1.8.0_152\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\formation\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\FORMAT~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_152"/>
+    <property name="user.dir" value="C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Installation\Java\jre1.8.0_152\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Installation/Java/jre1.8.0_152/bin/server;C:/Installation/Java/jre1.8.0_152/bin;C:/Installation/Java/jre1.8.0_152/lib/amd64;C:\Installation\apache-maven-3.6.3\bin;C:\Installation\apache-maven-3.6.3\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Installation\wamp\bin\mysql\mysql5.1.36\bin;C:\INSTAL~1\Groovy\GROOVY~1.15\bin;C:\ProgramData\chocolatey\bin;C:\Users\formation\AppData\Local\Microsoft\WindowsApps;;C:\Installation\SquashTA-Toolbox-1.10.0-RELEASE\eclipse-jee-oxygen-R-win32-x86_64;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.152-b16"/>
+    <property name="java.ext.dirs" value="C:\Installation\Java\jre1.8.0_152\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testIntermediaire" classname="org.eql.MyFirstProject.MyFirstSoapTest" time="10.359">
+    <system-out><![CDATA[16:40:28,988 WARN  [SoapUI] Missing folder [C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject\ext] for external libraries
+16:40:29,208 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\formation\soapui-settings.xml]
+16:40:30,451 INFO  [PluginManager] 0 plugins loaded in 0 ms
+16:40:30,451 INFO  [DefaultSoapUICore] All plugins loaded
+16:40:31,089 INFO  [WsdlProject] Loaded project from [file:/C:/Users/formation/Documents/SquashTA-1.10.0-RELEASE-workspace/MyFirstProject/src/test/resources/Project-NOAA-soapui-project.xml]
+16:40:31,372 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:40:31,373 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:40:31,941 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:40:31,957 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:40:32,022 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:40:32,029 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:40:32,046 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:40:32,046 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:40:32,571 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:40:32,571 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:40:32,576 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:40:32,578 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:40:32,596 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:40:32,597 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:40:33,216 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:40:33,216 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:40:33,224 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:40:33,235 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:40:33,251 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:40:33,251 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:40:33,900 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:40:33,900 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:40:33,905 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:40:33,910 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:40:33,928 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:40:33,928 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:40:34,518 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:40:34,524 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:40:34,529 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:40:34,533 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:40:34,551 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:40:34,551 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:40:35,166 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:40:35,167 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:40:35,172 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:40:35,175 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:40:35,192 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:40:35,193 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:40:35,640 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:40:35,655 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:40:35,660 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:40:35,661 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:40:35,679 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:40:35,679 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:40:36,155 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:40:36,155 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:40:36,171 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:40:36,173 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:40:36,191 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:40:36,191 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:40:36,835 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:40:36,835 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:40:36,840 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:40:36,844 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:40:36,862 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:40:36,862 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:40:37,521 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:40:37,522 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:40:37,527 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:40:37,530 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:40:37,548 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:40:37,549 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:40:38,251 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:40:38,251 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:40:38,261 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:40:38,264 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:40:38,281 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:40:38,281 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:40:39,004 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:40:39,004 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:40:39,021 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/formation/.m2/repository/org/slf4j/slf4j-log4j12/1.7.26/slf4j-log4j12-1.7.26.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Installation/SmartBear/SoapUI-5.4.0/lib/slf4j-log4j12-1.6.4.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+déc. 06, 2021 4:40:31 PM org.eql.MyFirstProject.MyFirstSoapTest testIntermediaire
+INFOS: ******Running TestSuite 1***********
+déc. 06, 2021 4:40:31 PM org.eql.MyFirstProject.MyFirstSoapTest testIntermediaire
+INFOS: ******Running TestCase 1***********
+déc. 06, 2021 4:40:33 PM org.eql.MyFirstProject.MyFirstSoapTest testIntermediaire
+INFOS: ******Running LatLonListZipCode TestSuite***********
+déc. 06, 2021 4:40:33 PM org.eql.MyFirstProject.MyFirstSoapTest testIntermediaire
+INFOS: ******Running TestCase WithStepProperties1***********
+déc. 06, 2021 4:40:35 PM org.eql.MyFirstProject.MyFirstSoapTest testIntermediaire
+INFOS: ******Running TestCase WithProperties 1***********
+déc. 06, 2021 4:40:36 PM org.eql.MyFirstProject.MyFirstSoapTest testIntermediaire
+INFOS: ******Running LatLonListCityNames TestSuite***********
+déc. 06, 2021 4:40:36 PM org.eql.MyFirstProject.MyFirstSoapTest testIntermediaire
+INFOS: ******Running TestCase 1***********
+déc. 06, 2021 4:40:37 PM org.eql.MyFirstProject.MyFirstSoapTest testIntermediaire
+INFOS: ******Running LatLonListLine TestSuite***********
+déc. 06, 2021 4:40:37 PM org.eql.MyFirstProject.MyFirstSoapTest testIntermediaire
+INFOS: ******Running TestCase 1***********
+déc. 06, 2021 4:40:38 PM org.eql.MyFirstProject.MyFirstSoapTest testIntermediaire
+INFOS: ******Running LatLonListSquare TestSuite***********
+déc. 06, 2021 4:40:38 PM org.eql.MyFirstProject.MyFirstSoapTest testIntermediaire
+INFOS: ******Running TestCase 1***********
+]]></system-err>
+  </testcase>
+  <testcase name="testSimple" classname="org.eql.MyFirstProject.MyFirstSoapTest" time="7.909">
+    <system-out><![CDATA[SoapUI 5.4.0 TestCase Runner
+16:40:39,667 INFO  [WsdlProject] Loaded project from [file:/C:/Users/formation/Documents/SquashTA-1.10.0-RELEASE-workspace/MyFirstProject/src/test/resources/Project-NOAA-soapui-project.xml]
+16:40:39,667 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Project NOAA]
+16:40:39,669 INFO  [SoapUITestCaseRunner] Running Project [Project NOAA], runType = SEQUENTIAL
+16:40:39,677 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+16:40:39,678 INFO  [SoapUITestCaseRunner] running step [Step 1]
+16:40:39,681 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:40:39,698 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:40:39,698 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:40:40,363 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:40:40,363 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:40:40,383 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:40:40,384 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+16:40:40,384 INFO  [SoapUITestCaseRunner] running step [Step 2]
+16:40:40,386 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:40:40,404 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:40:40,404 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:40:40,893 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:40:40,893 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:40:40,899 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:40:40,901 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+16:40:40,901 INFO  [SoapUITestCaseRunner] running step [Step 3]
+16:40:40,903 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:40:40,914 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:40:40,914 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:40:41,519 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:40:41,519 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:40:41,522 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:40:41,523 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+16:40:41,525 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 1842ms, status: FINISHED
+16:40:41,527 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase WithStepProperties1]
+16:40:41,528 INFO  [SoapUITestCaseRunner] running step [Properties]
+16:40:41,535 INFO  [SoapUITestCaseRunner] running step [Copy of Step 1]
+16:40:41,538 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:40:41,549 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:40:41,550 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:40:42,064 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:40:42,064 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:40:42,070 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:40:42,071 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+16:40:42,071 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+16:40:42,071 INFO  [SoapUITestCaseRunner] Assertion [LAT] has status VALID
+16:40:42,071 INFO  [SoapUITestCaseRunner] Assertion [LON] has status VALID
+16:40:42,072 INFO  [SoapUITestCaseRunner] running step [Properties2]
+16:40:42,073 INFO  [SoapUITestCaseRunner] running step [Step 2]
+16:40:42,074 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:40:42,083 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:40:42,083 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:40:42,701 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:40:42,701 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:40:42,710 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:40:42,713 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+16:40:42,713 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+16:40:42,713 INFO  [SoapUITestCaseRunner] Assertion [LAT] has status VALID
+16:40:42,714 INFO  [SoapUITestCaseRunner] Assertion [LON] has status VALID
+16:40:42,714 INFO  [SoapUITestCaseRunner] running step [Properties3]
+16:40:42,716 INFO  [SoapUITestCaseRunner] running step [Step 3]
+16:40:42,719 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:40:42,736 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:40:42,736 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:40:43,212 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:40:43,212 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:40:43,218 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:40:43,220 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+16:40:43,220 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+16:40:43,220 INFO  [SoapUITestCaseRunner] Assertion [LAT] has status VALID
+16:40:43,221 INFO  [SoapUITestCaseRunner] Assertion [LON] has status VALID
+16:40:43,221 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase WithStepProperties1], time taken: 1685ms, status: FINISHED
+16:40:43,222 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase WithProperties 1]
+16:40:43,222 INFO  [SoapUITestCaseRunner] running step [Copy of Step 1]
+16:40:43,224 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:40:43,242 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:40:43,242 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:40:43,869 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:40:43,869 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:40:43,882 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:40:43,883 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+16:40:43,884 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+16:40:43,884 INFO  [SoapUITestCaseRunner] Assertion [LAT] has status VALID
+16:40:43,884 INFO  [SoapUITestCaseRunner] Assertion [LON] has status VALID
+16:40:43,884 INFO  [SoapUITestCaseRunner] running step [Step 2]
+16:40:43,886 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:40:43,903 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:40:43,903 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:40:44,434 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:40:44,447 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:40:44,451 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:40:44,451 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+16:40:44,452 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+16:40:44,452 INFO  [SoapUITestCaseRunner] Assertion [LAT] has status VALID
+16:40:44,452 INFO  [SoapUITestCaseRunner] Assertion [LON] has status VALID
+16:40:44,452 INFO  [SoapUITestCaseRunner] running step [Step 3]
+16:40:44,454 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:40:44,472 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:40:44,472 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:40:45,096 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:40:45,096 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:40:45,106 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:40:45,106 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+16:40:45,106 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+16:40:45,106 INFO  [SoapUITestCaseRunner] Assertion [LAT] has status VALID
+16:40:45,106 INFO  [SoapUITestCaseRunner] Assertion [LON] has status VALID
+16:40:45,106 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase WithProperties 1], time taken: 1881ms, status: FINISHED
+16:40:45,107 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+16:40:45,107 INFO  [SoapUITestCaseRunner] running step [Properties]
+16:40:45,108 INFO  [SoapUITestCaseRunner] running step [LatLonListCityNames - Request 1]
+16:40:45,110 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:40:45,129 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:40:45,129 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:40:45,592 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:40:45,592 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:40:45,606 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:40:45,607 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+16:40:45,607 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+16:40:45,607 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+16:40:45,607 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 498ms, status: FINISHED
+16:40:45,608 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+16:40:45,609 INFO  [SoapUITestCaseRunner] running step [Properties]
+16:40:45,609 INFO  [SoapUITestCaseRunner] running step [LatLonListLine - Request 1]
+16:40:45,610 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:40:45,629 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:40:45,629 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:40:46,262 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:40:46,262 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:40:46,267 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:40:46,268 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+16:40:46,268 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+16:40:46,268 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+16:40:46,269 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 658ms, status: FINISHED
+16:40:46,270 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+16:40:46,270 INFO  [SoapUITestCaseRunner] running step [Properties]
+16:40:46,271 INFO  [SoapUITestCaseRunner] running step [LatLonListSquare - Request 1]
+16:40:46,272 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:40:46,290 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:40:46,290 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:40:46,913 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:40:46,929 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:40:46,933 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+16:40:46,933 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+16:40:46,933 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+16:40:46,933 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+16:40:46,934 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 663ms, status: FINISHED
+16:40:46,934 INFO  [SoapUITestCaseRunner] Project [Project NOAA] finished with status [FINISHED] in 7263ms
+]]></system-out>
+  </testcase>
+</testsuite>

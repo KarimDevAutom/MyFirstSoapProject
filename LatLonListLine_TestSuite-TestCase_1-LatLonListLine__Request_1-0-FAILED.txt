@@ -1,0 +1,56 @@
+Status: FAILED
+Time Taken: 783
+Size: 941
+Timestamp: Mon Dec 06 16:30:43 CET 2021
+TestStep: LatLonListLine - Request 1
+
+----------------- Messages ------------------------------
+[XPath Match] XPathContains assertion failed for path [//listLatLonOut/text()] : RuntimeException: Trying XBeans path engine... Trying XQRL... Trying delegated path engine... FAILED on //listLatLonOut/text()
+
+----------------- Properties ------------------------------
+Endpoint: https://graphical.weather.gov:443/xml/SOAP_server/ndfdXMLserver.php
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : "https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#LatLonListLine"
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.2.1 (java 1.5)
+Host : graphical.weather.gov:443
+Accept-Encoding : gzip,deflate
+Content-Length : 734
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ndf="https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ndf:LatLonListLine soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <endPoint1Lat xsi:type="xsd:decimal">39.0000</endPoint1Lat>
+         <endPoint1Lon xsi:type="xsd:decimal">-77.0000</endPoint1Lon>
+         <endPoint2Lat xsi:type="xsd:decimal">39.0000</endPoint2Lat>
+         <endPoint2Lon xsi:type="xsd:decimal">-77.0000</endPoint2Lon>
+      </ndf:LatLonListLine>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: X-SOAP-Server : NuSOAP/0.9.5 (1.123)
+Strict-Transport-Security : max-age=31536000 ; includeSubDomains ; preload
+Server : Apache
+Content-Encoding : gzip
+Connection : keep-alive
+Vary : Accept-Encoding
+#status# : HTTP/1.1 200 OK
+Content-Length : 395
+X-NIDS-ServerID : www4.mo
+Date : Mon, 06 Dec 2021 15:30:44 GMT
+Content-Type : text/xml; charset=ISO-8859-1
+
+
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
+   <SOAP-ENV:Body>
+      <ns1:LatLonListLineResponse xmlns:ns1="https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl">
+         <listLatLonOut xsi:type="xsd:string">&lt;?xml version='1.0'?>&lt;dwml version='1.0' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='https://graphical.weather.gov/xml/DWMLgen/schema/DWML.xsd'>&lt;latLonList>39.019722,-77.002002&lt;/latLonList>&lt;/dwml></listLatLonOut>
+      </ns1:LatLonListLineResponse>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

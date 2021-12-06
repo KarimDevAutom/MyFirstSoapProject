@@ -1,0 +1,99 @@
+2021-12-06 16:40:28,988 WARN  [SoapUI] Missing folder [C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject\ext] for external libraries
+2021-12-06 16:40:29,208 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\formation\soapui-settings.xml]
+2021-12-06 16:40:30,451 INFO  [PluginManager] 0 plugins loaded in 0 ms
+2021-12-06 16:40:30,451 INFO  [DefaultSoapUICore] All plugins loaded
+2021-12-06 16:40:31,089 INFO  [WsdlProject] Loaded project from [file:/C:/Users/formation/Documents/SquashTA-1.10.0-RELEASE-workspace/MyFirstProject/src/test/resources/Project-NOAA-soapui-project.xml]
+2021-12-06 16:40:32,022 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+2021-12-06 16:40:32,576 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+2021-12-06 16:40:33,224 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+2021-12-06 16:40:33,905 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+2021-12-06 16:40:34,529 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+2021-12-06 16:40:35,172 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+2021-12-06 16:40:35,660 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+2021-12-06 16:40:36,171 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+2021-12-06 16:40:36,840 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+2021-12-06 16:40:37,527 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+2021-12-06 16:40:38,261 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+2021-12-06 16:40:39,021 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+2021-12-06 16:40:39,667 INFO  [WsdlProject] Loaded project from [file:/C:/Users/formation/Documents/SquashTA-1.10.0-RELEASE-workspace/MyFirstProject/src/test/resources/Project-NOAA-soapui-project.xml]
+2021-12-06 16:40:39,667 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Project NOAA]
+2021-12-06 16:40:39,669 INFO  [SoapUITestCaseRunner] Running Project [Project NOAA], runType = SEQUENTIAL
+2021-12-06 16:40:39,677 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+2021-12-06 16:40:39,678 INFO  [SoapUITestCaseRunner] running step [Step 1]
+2021-12-06 16:40:40,383 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+2021-12-06 16:40:40,384 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-12-06 16:40:40,384 INFO  [SoapUITestCaseRunner] running step [Step 2]
+2021-12-06 16:40:40,899 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+2021-12-06 16:40:40,901 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-12-06 16:40:40,901 INFO  [SoapUITestCaseRunner] running step [Step 3]
+2021-12-06 16:40:41,522 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+2021-12-06 16:40:41,523 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-12-06 16:40:41,525 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 1842ms, status: FINISHED
+2021-12-06 16:40:41,527 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase WithStepProperties1]
+2021-12-06 16:40:41,528 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-12-06 16:40:41,535 INFO  [SoapUITestCaseRunner] running step [Copy of Step 1]
+2021-12-06 16:40:42,070 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+2021-12-06 16:40:42,071 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-12-06 16:40:42,071 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-12-06 16:40:42,071 INFO  [SoapUITestCaseRunner] Assertion [LAT] has status VALID
+2021-12-06 16:40:42,071 INFO  [SoapUITestCaseRunner] Assertion [LON] has status VALID
+2021-12-06 16:40:42,072 INFO  [SoapUITestCaseRunner] running step [Properties2]
+2021-12-06 16:40:42,073 INFO  [SoapUITestCaseRunner] running step [Step 2]
+2021-12-06 16:40:42,710 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+2021-12-06 16:40:42,713 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-12-06 16:40:42,713 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-12-06 16:40:42,713 INFO  [SoapUITestCaseRunner] Assertion [LAT] has status VALID
+2021-12-06 16:40:42,714 INFO  [SoapUITestCaseRunner] Assertion [LON] has status VALID
+2021-12-06 16:40:42,714 INFO  [SoapUITestCaseRunner] running step [Properties3]
+2021-12-06 16:40:42,716 INFO  [SoapUITestCaseRunner] running step [Step 3]
+2021-12-06 16:40:43,218 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+2021-12-06 16:40:43,220 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-12-06 16:40:43,220 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-12-06 16:40:43,220 INFO  [SoapUITestCaseRunner] Assertion [LAT] has status VALID
+2021-12-06 16:40:43,221 INFO  [SoapUITestCaseRunner] Assertion [LON] has status VALID
+2021-12-06 16:40:43,221 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase WithStepProperties1], time taken: 1685ms, status: FINISHED
+2021-12-06 16:40:43,222 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase WithProperties 1]
+2021-12-06 16:40:43,222 INFO  [SoapUITestCaseRunner] running step [Copy of Step 1]
+2021-12-06 16:40:43,882 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+2021-12-06 16:40:43,883 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-12-06 16:40:43,884 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-12-06 16:40:43,884 INFO  [SoapUITestCaseRunner] Assertion [LAT] has status VALID
+2021-12-06 16:40:43,884 INFO  [SoapUITestCaseRunner] Assertion [LON] has status VALID
+2021-12-06 16:40:43,884 INFO  [SoapUITestCaseRunner] running step [Step 2]
+2021-12-06 16:40:44,451 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+2021-12-06 16:40:44,451 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-12-06 16:40:44,452 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-12-06 16:40:44,452 INFO  [SoapUITestCaseRunner] Assertion [LAT] has status VALID
+2021-12-06 16:40:44,452 INFO  [SoapUITestCaseRunner] Assertion [LON] has status VALID
+2021-12-06 16:40:44,452 INFO  [SoapUITestCaseRunner] running step [Step 3]
+2021-12-06 16:40:45,106 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+2021-12-06 16:40:45,106 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-12-06 16:40:45,106 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-12-06 16:40:45,106 INFO  [SoapUITestCaseRunner] Assertion [LAT] has status VALID
+2021-12-06 16:40:45,106 INFO  [SoapUITestCaseRunner] Assertion [LON] has status VALID
+2021-12-06 16:40:45,106 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase WithProperties 1], time taken: 1881ms, status: FINISHED
+2021-12-06 16:40:45,107 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+2021-12-06 16:40:45,107 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-12-06 16:40:45,108 INFO  [SoapUITestCaseRunner] running step [LatLonListCityNames - Request 1]
+2021-12-06 16:40:45,606 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+2021-12-06 16:40:45,607 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-12-06 16:40:45,607 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-12-06 16:40:45,607 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2021-12-06 16:40:45,607 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 498ms, status: FINISHED
+2021-12-06 16:40:45,608 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+2021-12-06 16:40:45,609 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-12-06 16:40:45,609 INFO  [SoapUITestCaseRunner] running step [LatLonListLine - Request 1]
+2021-12-06 16:40:46,267 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+2021-12-06 16:40:46,268 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-12-06 16:40:46,268 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-12-06 16:40:46,268 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2021-12-06 16:40:46,269 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 658ms, status: FINISHED
+2021-12-06 16:40:46,270 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+2021-12-06 16:40:46,270 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-12-06 16:40:46,271 INFO  [SoapUITestCaseRunner] running step [LatLonListSquare - Request 1]
+2021-12-06 16:40:46,933 WARN  [AbstractSoapVersion] Ignoring validation error: error: cvc-complex-type.3.2.2: Attribute not allowed: encodingStyle@http://schemas.xmlsoap.org/soap/envelope/ in element Envelope@http://schemas.xmlsoap.org/soap/envelope/
+2021-12-06 16:40:46,933 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-12-06 16:40:46,933 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-12-06 16:40:46,933 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2021-12-06 16:40:46,934 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 663ms, status: FINISHED
+2021-12-06 16:40:46,934 INFO  [SoapUITestCaseRunner] Project [Project NOAA] finished with status [FINISHED] in 7263ms
